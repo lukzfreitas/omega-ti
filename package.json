@@ -9,11 +9,9 @@
     "npm": "5.6.0"
   },
   "scripts": {
-    "start": "npm run dev",
+    "start": "./node_modules/webpack/bin/webpack.js -p --progress && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --mode development",
-    "build": "webpack --mode production",
-    "precommit": "./pre-commit.sh"
+    "dev": "webpack-dev-server"    
   },
   "repository": {
     "type": "git",
