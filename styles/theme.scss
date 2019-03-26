@@ -1,0 +1,369 @@
+body {
+  background-color: #146785 !important;
+  font-family: 'Nunito', sans-serif !important;
+}
+
+/* Barra de Navegação */
+.nav-link {
+  font-size: 1.3em;
+  margin-right: 1em;
+  margin-left: 1em;
+}
+
+/* Link Bootstrap - alteração */ 
+$navbar-light-color: white;
+$navbar-light-hover-color: #159ecf;
+
+.mar-right {
+  padding-right: 0.5em;
+}
+
+.btn-nav {
+  width: 8em;
+}
+
+.btn-nav2 {
+  width: 10em;
+}
+
+/* Botão Bootstrap - alteração */
+$btn-border-radius: .5em;
+
+/* Início */
+.space {
+  padding-top: 4em;
+}
+
+#inicio {
+  background-image: linear-gradient(to bottom, transparent 30%, white), url("../img/fundo.jpg") ;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: right top;
+  background-repeat: no-repeat;
+  /*height: calc(100vh);*/
+  opacity: 0.8;
+}
+
+.text-color {
+  color: #ffffff;
+  padding-top: 1.3em;
+}
+
+.text-color2 {
+  color: #0e1a47;
+  margin-top: 0.1em;
+  font-size: 3.4em;
+  font-weight: bolder;
+}
+
+.img-size {
+  width: 20em;
+}
+
+.pad-btn {
+  padding-top: 3em;
+}
+
+.btn-teste {
+  font-size: 1.5em !important;
+  margin-bottom: 3em;
+}
+
+.video {
+  width: 100%;
+}
+
+.line-blue {
+  background-color: #146785;
+  height: .5em;
+}
+
+.line-blue2 {
+  background-color: #146785;
+  height: .5em;
+}
+
+/* Quem Somos */
+#quemsomos {
+  background-color: white;
+  padding-bottom: 3em;
+}
+
+.pad-top {
+  padding-top: 3em;
+}
+
+.title-emp {
+  font-size: 1.5em;
+  color: #79cdeb;
+}
+
+.ico {
+  width: 5em;
+  padding: .5em;
+}
+
+.image {
+  width: 13em;
+  padding: .5em;
+}
+
+.image2 {
+  width: 8em;
+  padding: .5em;
+}
+
+/* Serviços */
+#servico {
+  background-image: url('../img/nuvem.png'), linear-gradient(to bottom, #21acde, #7acdeb);
+  background-attachment: fixed;
+  padding-bottom: 1em;
+  padding-top: 0.5em;
+}
+
+.text-color-como {
+  color: #ffffff;
+  padding-top: 1.3em;
+}
+
+.container-fluid {
+  max-width: 800px
+}
+
+.ico-teste {
+  width: 10em;
+  padding: .5em;
+  padding-bottom: 0.5em;
+}
+
+.title-como {
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  font-size: 1.5em;
+  color: #ffffff; 
+}
+
+/* Clientes */
+.line-white {
+  background-color: #ffffff;
+  height: .5em;
+}
+
+.text-plan {
+  margin-left: 6.9em;
+}
+
+.text-plan-servicos {
+  margin-left: 6.9em;
+  max-width: 890px;
+  text-align: justify;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+/*Planos Mobile - alterados no card do Bootstrap!*/
+.col-link {
+  color: #ffffff;
+  font-weight: 400;
+  background-color: transparent;
+}
+
+.tabela-mobile {
+  color: #ffffff;
+}
+
+.tabela-pc {
+  margin: auto;
+  width: 80%;
+}
+
+/*Borda Card Bootstrap - Alteração*/
+// $card-border-color: #79cdeb !important;
+// $card-border-width: 1.3px !important;
+$card-bg: #14678536;
+
+.card {
+  min-width: 20em !important;
+  border: 1.5px solid #79cdeb !important;
+}
+
+.card-header {
+  border-bottom: none !important;
+}
+
+.btn:focus {
+  box-shadow: none !important;
+}
+
+/* Contato */
+#contato {
+  background-image: linear-gradient(#146785, #ffffff);
+  min-height: 41em;
+}
+
+.space {
+  padding-bottom: .3em;
+}
+
+.text-contato {
+  color: #ffffff;
+  margin-top: 1.5em;
+}
+
+.number {
+  color: #146785;
+  text-decoration: none !important;
+  font-size: 1.25em;
+}
+
+.border-form {
+  background-color: #14678582;
+  padding: 1em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+}
+
+.form-font {
+  color: #ffffff;
+}
+
+.btn-blue {
+  background-color: #14678582;
+  color: #ffffff;
+}
+
+.btn-blue:hover {
+  color: #212529;
+  background-color: #14678536;
+  border-color: #dae0e5;
+}
+
+#contato-alert {
+  margin-top: 1em;
+}
+
+.alerta {
+  color: #818182;
+  background-color: #14678582;
+  border-color: #146785;
+}
+
+/*Desenvolvido por*/
+#footer {
+  background-color: #146785;
+  height: 1.8em;
+  margin: 0;
+  cursor: pointer;
+}
+
+.logo-bidicode {
+  width: 14em;
+  padding: 0.5em;
+}
+
+#contato-alert {
+  margin-top: 1em;
+}
+
+/* Página Cadastro*/
+.text-color-cad {
+  color: #146785;
+  padding-top: .7em;
+}
+
+.mid-pad-top {
+  padding-top: 1em;
+}
+
+.pad-bottom {
+  padding-bottom: 2em;
+}
+
+.border-signin {
+  background-color: #14678582;
+  border-radius: 20px;
+  padding: 1em;
+}
+
+.font-form {
+  color:#ffffff;
+  font-size: 1.2em;
+}
+
+.text-cad {
+  text-align: justify;
+  font-size: 1.2em;
+  color: #146785;
+}
+
+.text-cad-2 {
+  font-size: 1.2em;
+  color: #146785;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1024px) {
+  .nav-link {
+    padding-top: 1.8em !important;
+  }
+
+  .hide-pc {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 790px) {
+  .hide-pc {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .tabela-pc {
+    display: none;
+  }
+
+  .hide-pc {
+    display: block;
+  }
+
+  .video-mobile{
+    display: none;
+  }
+}
+
+/*Mobile*/
+@media screen and (max-width: 480px) {
+  .nav-link {
+    font-size: 1.3em;
+    padding-top: 0em;
+  }
+
+  .video-mobile{
+    width: 100%;
+    display: block;
+  }
+
+  .video {
+    display: none;
+  }
+
+  .mobile-center {
+    text-align: center;
+  }
+
+  .ico-teste {
+    width: 8em;
+  }
+
+  .tabela-pc {
+    display: none;
+  }
+
+  .space-contato {
+    padding-top: 0em;;
+  } 
+
+}
