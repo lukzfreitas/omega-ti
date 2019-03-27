@@ -56,6 +56,14 @@ $btn-border-radius: .5em;
   font-weight: bolder;
 }
 
+.textini {
+  color: #0e1a47;
+  margin-top: 0.1em;
+  font-size: 3.4em;
+  font-weight: bolder;
+  text-shadow: 2px 2px #edf2f7;
+}
+
 .img-size {
   width: 20em;
 }
@@ -336,9 +344,19 @@ $card-bg: #14678536;
 
 /*Mobile*/
 @media screen and (max-width: 480px) {
+  #inicio {
+    background-size: calc(100vh);
+
+  }
+
   .nav-link {
     font-size: 1.3em;
     padding-top: 0em;
+  }
+
+  .textini {
+    font-size: 1.8em;
+    text-shadow: 3px 3px #edf2f7;
   }
 
   .video-mobile{
