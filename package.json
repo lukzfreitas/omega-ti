@@ -11,7 +11,7 @@
   "scripts": {
     "start": "./node_modules/webpack/bin/webpack.js -p --progress && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --port $PORT --host 0.0.0.0 "
+    "dev": "webpack-dev-server --port $PORT --host guarded-sands-78976.herokuapp.com "
   },
   "repository": {
     "type": "git",
