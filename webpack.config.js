@@ -67,6 +67,7 @@ module.exports = {
     inline: true,
     open: true,
     port: process.env.PORT || 8080,
-    contentBase: './dist'
+    contentBase: './dist',
+    disableHostCheck: true
   }
 };
